@@ -13,12 +13,12 @@ export default function Contact() {
   const [isLoading, setIsLoading] = useState(false);
 
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault(); // Prevent default form submission behavior
 
     setIsLoading(true); // Set loading to true
 
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.currentTarget); // Use currentTarget instead of target
     const { data, error } = await sendEmail(formData);
 
     if (error) {
@@ -29,7 +29,7 @@ export default function Contact() {
 
     toast.success("Email sent successfully");
     setIsLoading(false); // Set loading to false after sending email
-  };
+};
 
 
 
