@@ -78,6 +78,7 @@ export const projectsData = [
       "Koding Kombat is an engaging educational coding platform tailored for adolescents, providing a fun and interactive way to learn coding skills.",
     tags: ["React", "Vite", "PostgreSQL", "Bootstrap", "NodeJs"],
     imageUrl: homepageImg,
+    githubUrl: "https://github.com/jabz80/jabbascript",
   },
   {
     title: "Revisehub",
@@ -85,6 +86,7 @@ export const projectsData = [
       "A all in one productivity app to make studying and working more manageable. Incorporates a Pomodoro timer to keep you focused and motivated.",
     tags: ["React", "NodeJS", "PostgreSQL", "Tailwind", "Vite"],
     imageUrl: revisehubImg,
+    githubUrl: "https://github.com/jabz80/Code-Fathers",
   },
   {
     title: "Gazeteer",
@@ -92,6 +94,7 @@ export const projectsData = [
       "Gazetteer' is a useful web app built with Javascript, JQuery, and PHP, that gives a user information about Countries and Cities located all over the world.",
     tags: ["HTML", "Bootstrap", "PHP", "Javascript", "JQuery"],
     imageUrl: gazeteerImg,
+    githubUrl: "https://github.com/jabz80/jabirAli/tree/main/gazetteer",
   },
 ] as const;
 
@@ -103,16 +106,14 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "C#",
   "PHP",
-  "ASP.NET",
   "Git",
   "Tailwind",
+  "Bootstrap",
   "MongoDB",
   "Redux",
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;
