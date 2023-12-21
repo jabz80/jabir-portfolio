@@ -8,6 +8,7 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import homepageImg from "@/public/homepage.png"
 import gazeteerImg from "@/public/Screenshot 2023-12-14 at 5.12.08 pm.png"
 import revisehubImg from "@/public/Screenshot 2023-12-14 at 5.16.35 pm.png"
+import simplechefImg from "@/public/simple.chef.png"
 
 export const links = [
   {
@@ -72,6 +73,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Simple Chef",
+    description:
+      "Website dedicated to delicious and healthy meals, offering users a seamless way to discover and enjoy a wide range of delicious recipes",
+    tags: ["React", "Vite", "CSS", "Framer Motion", "Javascript"],
+    imageUrl: simplechefImg,
+    githubUrl: "https://github.com/jabz80/recipeAPI",
+  },
   {
     title: "Koding Kombat",
     description:
