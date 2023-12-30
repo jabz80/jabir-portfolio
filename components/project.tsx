@@ -42,7 +42,7 @@ export default function Project ({title, description, tags, imageUrl, githubUrl}
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="mt-3 inline-block w-32 px-3 py-1 text-sm bg-gray-400 text-white rounded-full shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 transition ease-in duration-200">
-                  View on GitHub
+                  Live Demo
               </a>
                 )}
         </div>
